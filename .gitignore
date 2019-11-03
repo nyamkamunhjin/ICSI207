@@ -1,6 +1,3 @@
-# Ignore All
-*
-
 # Unignore all with extensions
 !*.*
 
@@ -58,9 +55,7 @@ Mkfile.old
 dkms.conf
 
 # vscode
-.vscode/*
-!.vscode/settings.json
-!.vscode/tasks.json
-!.vscode/launch.json
-!.vscode/extensions.json
-*.code-workspace
+.vscode
+
+# idea
+.idea
